@@ -56,16 +56,16 @@ for page in range(0, page_number):
         else:
             salary_list = salary.split()
             if salary_list[0] == "от":
-                salary_min = salary_list[1]
+                salary_min = int(salary_list[1])
                 salary_max = None
                 salary_currency = salary_list[2]
             elif salary_list[0] == "до":
                 salary_min = None
-                salary_max = salary_list[1]
+                salary_max = int(salary_list[1])
                 salary_currency = salary_list[2]
             else:
-                salary_min = salary_list[0]
-                salary_max = salary_list[2]
+                salary_min = int(salary_list[0])
+                salary_max = int(salary_list[2])
                 salary_currency = salary_list[3]
 
         vacancy_data['name'] = name
