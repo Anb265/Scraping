@@ -295,3 +295,15 @@ zict==2.0.0
 zipp @ file:///tmp/build/80754af9/zipp_1633618647012/work
 zope.event==4.5.0
 zope.interface @ file:///C:/ci/zope.interface_1625036252485/work
+
+requests~=2.27.1
+bs4~=0.0.1
+beautifulsoup4~=4.11.1
+
+requests~=2.27.1
+
+requests~=2.27.1
+
+requests~=2.27.1
+
+requests~=2.27.1
